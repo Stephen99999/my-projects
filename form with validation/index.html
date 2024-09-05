@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Courier Form</title>
+    <link rel="icon" type="images/x-icon" href="download.jpeg">
+    <link rel="stylesheet" href="style.css">
+    
+  </head>
+  <body id="body">
+    <form id="courierForm" action="">
+      <div class="form-group" id="myform">
+        <label for="name">Name</label><br />
+        <input type="text" name="customer_name" id="name"  required/><br />
+        <span class="error" id="nameError"></span><br />
+        <label for="email">Email</label><br />
+        <input type="email" name="customer_email" id="email" /><br />
+        <span class="error" id="emailError"></span><br />
+        <label for="feedback">Feedback</label><br />
+        <textarea name="customer_feedback" id="feedback"></textarea><br />
+        <span class="error" id="feedbackError"></span><br />
+        <label for="ratings">Rate our service</label><br />
+        <select name="ratings" id="ratings">
+          <option value="">Ratings</option>
+          <option value="5">⭐⭐⭐⭐⭐</option>
+          <option value="4">⭐⭐⭐⭐</option>
+          <option value="3">⭐⭐⭐</option>
+          <option value="2">⭐⭐</option>
+          <option value="1">⭐</option>
+        </select><br />
+        <span class="error" id="ratingsError"></span><br />
+        <input type="submit" />
+      </div>
+    </form>
+    <script src="script.js"></script>
+  </body>
+</html>

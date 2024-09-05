@@ -1,0 +1,66 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  overflow: hidden;
+}
+
+#body {
+  display: block;
+  width: 100vw;
+  height: 100vh;
+  object-fit: cover; /* Ensures the image covers the entire area */
+}
+
+.center {
+    position: absolute;
+    top: 52%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    padding: 0 20px;
+    text-align: center;
+  }
+  .center .title {
+    color: #fff;
+    font-size: 55px;
+    font-weight: 600;
+  }
+  .center .sub_title {
+    color: #fff;
+    font-size: 52px;
+    font-weight: 600;
+  }
+  .center .btns {
+    margin-top: 20px;
+  }
+  .center .btns button {
+    height: 55px;
+    width: 170px;
+    border-radius: 5px;
+    border: none;
+    margin: 0 10px;
+    border: 2px solid rgb(102, 86, 86);
+    font-size: 20px;
+    font-weight: 500;
+    padding: 0 10px;
+    cursor: pointer;
+    outline: none;
+    transition: all 0.3s ease;
+  }
+  .center .btns button:first-child {
+    color: #fff;
+    background: none;
+  }
+  .btns button:first-child:hover {
+    background: white;
+    color: black;
+  }
+  .center .btns button:last-child {
+    background: none;
+    color: white;
+  }
+  .center .btns button:last-child:hover{
+    background: white;
+    color: black;
+  }
